@@ -19,8 +19,7 @@
 - 4_Analyzing_wall.ipynb - analyzing wall description and creating rankings and correlations (point 9 from the Rankings and 1 from the Algorithms below).
 - 4_Analyzing_roof.ipynb - analyzing roof description and creating rankings and correlations (point 10 from the Rankings and 2 from the Algorithms below).
 - 5_Modelling_cost.ipynb - build an algorithm that takes as input the characteristics of a building (any field of the dataset except those related to costs) and outputs the total cost of energy of the building over a 3-year period.
-- 6_Recommendations_eff.ipynb - build an algorithm that takes as input the characteristics of a building (any field of the dataset) and outputs recommendations on the elements of the house to be modified to improve its energy performance.
-- 6_Recommendations_cost.ipynb - build an algorithm that takes as input the characteristics of a building (any field in the dataset) and outputs recommendations on which elements of the house should be modified to most effectively decrease the total energy cost of the building over a 3-year period.
+- 6_Recommendations.ipynb - build an algorithm that takes as input the characteristics of a building (any field of the dataset) and outputs recommendations on the elements of the house to be modified to improve its energy performance or total energy cost (points 4 and 6 from Algorithms).
 
 ---
 ## Task description
