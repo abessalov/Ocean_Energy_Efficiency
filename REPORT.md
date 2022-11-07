@@ -212,7 +212,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - Ratings could be float then we convert them to the integer values from 1 to 5.
 - In each categorical rating value we calculate average value of a target variable (energy costs or energy performance).
 - Based on that matrix we calculate the maximum target improvement for the dwelling owner under the assumption that the owner can improve his rating only on 1.
-#### Heatmap of the average energy performance value by the bucket number (1-10) and the input features:
+#### Heatmap of the average energy performance value by the rating value (1-5) and the input features:
 ![Screenshot](pictures/reco1.PNG)
 
 ### 3.5. Build an algorithm that takes as input the characteristics of a building (any field of the dataset except those related to costs) and outputs the total cost of energy of the building over a 3-year period
@@ -243,5 +243,5 @@ _More details you can find in the script Modelling_cost.ipynb_
 - Ratings could be float then we convert them to the integer values from 1 to 5.
 - In each categorical rating value we calculate average value of a target variable (energy costs or energy performance).
 - Based on that matrix we calculate the maximum target improvement for the dwelling owner under the assumption that the owner can improve his rating only on 1.
-#### Heatmap of the average energy cost value by the bucket number (1-10) and the input features:
+#### Heatmap of the average energy cost value by the rating value (1-5) and the input features:
 ![Screenshot](pictures/reco2.PNG)
