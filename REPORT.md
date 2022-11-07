@@ -200,6 +200,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 ![Screenshot](pictures/age2.PNG)
 
 ### 3.4. Build an algorithm that takes as input the characteristics of a building (any field of the dataset) and outputs recommendations on the elements of the house to be modified to improve its energy performance
+_More details you can find in the script 6_Recommendations.ipynb_
 - We are using different building ratings as input features (details how to generate that ratings are in 4_Analyzing scripts):
     - Hot_water
     - Lighting
@@ -211,9 +212,12 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
     - Mainheatcont
 - Ratings could be float then we convert them to the integer values from 1 to 5.
 - In each categorical rating value we calculate average value of a target variable (energy costs or energy performance).
-- Based on that matrix we calculate the maximum target improvement for the dwelling owner under the assumption that the owner can improve his rating only on 1.
+- Based on that matrix we calculate the maximum target improvement for each dwelling owner under the assumption that the owner can improve his feature rating only on 1.
 #### Heatmap of the average energy performance value by the rating value (1-5) and the input features:
 ![Screenshot](pictures/reco1.PNG)
+#### After we got recommendation for each dwelling we have the following statistics:
+![Screenshot](pictures/reco1_res.PNG)
+
 
 ### 3.5. Build an algorithm that takes as input the characteristics of a building (any field of the dataset except those related to costs) and outputs the total cost of energy of the building over a 3-year period
 _More details you can find in the script Modelling_cost.ipynb_
@@ -231,6 +235,7 @@ _More details you can find in the script Modelling_cost.ipynb_
 ![Screenshot](pictures/imp_rf.PNG)
 
 ### 3.6. Build an algorithm that takes as input the characteristics of a building (any field in the dataset) and outputs recommendations on which elements of the house should be modified to most effectively decrease the total energy cost of the building over a 3-year period
+_More details you can find in the script 6_Recommendations.ipynb_
 - We are using different building ratings as input features (details how to generate that ratings are in 4_Analyzing scripts):
     - Hot_water
     - Lighting
@@ -242,6 +247,8 @@ _More details you can find in the script Modelling_cost.ipynb_
     - Mainheatcont
 - Ratings could be float then we convert them to the integer values from 1 to 5.
 - In each categorical rating value we calculate average value of a target variable (energy costs or energy performance).
-- Based on that matrix we calculate the maximum target improvement for the dwelling owner under the assumption that the owner can improve his rating only on 1.
+- Based on that matrix we calculate the maximum target improvement for each dwelling owner under the assumption that the owner can improve his feature rating only on 1.
 #### Heatmap of the average energy cost value by the rating value (1-5) and the input features:
 ![Screenshot](pictures/reco2.PNG)
+#### After we got recommendation for each dwelling we have the following statistics:
+![Screenshot](pictures/reco2_res.PNG)
