@@ -200,11 +200,18 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 ![Screenshot](pictures/age2.PNG)
 
 ### 3.4. Build an algorithm that takes as input the characteristics of a building (any field of the dataset) and outputs recommendations on the elements of the house to be modified to improve its energy performance
-- Preprocess input features and choose not duplicated and potentially usefull for recommendation model.
-- Remove features that cannot be improved by the owner of a particular dwelling. For example, we cannot change the city of the building or the year of construction, but CO2 Emissions, for example, we can.
-- Numerical features transform to categorical feature with 10 buckets based on percentiles.
-- In each categorical feature value we calculate average value of a target variable.
-- Let's suppose that the owner can improve his feature only on the one bucket. Based on that assumption calculate the maximum target improvement of that user.
+- We are using different building ratings as input features (details how to generate that ratings are in 4_Analyzing scripts):
+    - Hot_water
+    - Lighting
+    - Wall
+    - Roof
+    - Floor
+    - Windows
+    - Mainheat
+    - Mainheatcont
+- Ratings could be float then we convert them to the integer values from 1 to 5.
+- In each categorical rating value we calculate average value of a target variable (energy costs or energy performance).
+- Based on that matrix we calculate the maximum target improvement for the dwelling owner under the assumption that the owner can improve his rating only on 1.
 #### Heatmap of the average energy performance value by the bucket number (1-10) and the input features:
 ![Screenshot](pictures/reco1.PNG)
 
@@ -224,10 +231,17 @@ _More details you can find in the script Modelling_cost.ipynb_
 ![Screenshot](pictures/imp_rf.PNG)
 
 ### 3.6. Build an algorithm that takes as input the characteristics of a building (any field in the dataset) and outputs recommendations on which elements of the house should be modified to most effectively decrease the total energy cost of the building over a 3-year period
-- Preprocess input features and choose not duplicated and potentially usefull for recommendation model.
-- Remove features that cannot be improved by the owner of a particular dwelling. For example, we cannot change the city of the building or the year of construction, but CO2 Emissions, for example, we can.
-- Numerical features transform to categorical feature with 10 buckets based on percentiles.
-- In each categorical feature value we calculate average value of a target variable.
-- Let's suppose that the owner can improve his feature only on the one bucket. Based on that assumption calculate the maximum target improvement of that user.
+- We are using different building ratings as input features (details how to generate that ratings are in 4_Analyzing scripts):
+    - Hot_water
+    - Lighting
+    - Wall
+    - Roof
+    - Floor
+    - Windows
+    - Mainheat
+    - Mainheatcont
+- Ratings could be float then we convert them to the integer values from 1 to 5.
+- In each categorical rating value we calculate average value of a target variable (energy costs or energy performance).
+- Based on that matrix we calculate the maximum target improvement for the dwelling owner under the assumption that the owner can improve his rating only on 1.
 #### Heatmap of the average energy cost value by the bucket number (1-10) and the input features:
 ![Screenshot](pictures/reco2.PNG)
