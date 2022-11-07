@@ -85,11 +85,11 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - We have transformed the unique wall description values to Wall Type and Wall Insulation features (more details you can find in the script).
 - We have created CO2 rating based on the relevant CO2 values (inverse dependency and values from 1 to 5) 
 - Wall rating have been created from the WALL_ENERGY_EFF field with replacing of the word rankings to the values: 
-    -very poor: 1,
-    -poor: 2,
-    -average: 3,
-    -good: 4,
-    -very good: 5
+        very poor: 1,
+        poor: 2,
+        average: 3,
+        good: 4,
+        very good: 5
 - Total rating is the simple average between wall and CO2 ratings.
 #### Features popularity
 ![Screenshot](pictures/wall1.PNG)
@@ -102,18 +102,73 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - We have transformed the unique roof description values to Roof Type and Roof Insulation features (more details you can find in the script).
 - We have created CO2 rating based on the relevant CO2 values (inverse dependency and values from 1 to 5) 
 - Wall rating have been created from the ROOF_ENERGY_EFF field with replacing of the word rankings to the values: 
-    -very poor: 1,
-    -poor: 2,
-    -average: 3,
-    -good: 4,
-    -very good: 5
+        very poor: 1,
+        poor: 2,
+        average: 3,
+        good: 4,
+        very good: 5
 - Total rating is the simple average between roof and CO2 ratings.
 #### Features popularity
 ![Screenshot](pictures/roof1.PNG)
 #### Features average ratings
 ![Screenshot](pictures/roof2.PNG)
-#### Features heatmaps (Wall Type on Wall Insulation)
+#### Features heatmaps (Roof Type on Roof Insulation)
 ![Screenshot](pictures/roof3.PNG)
+
+### 2.11. (BONUS) Rank the top 5 floor descriptions (floor materials) by CO2 emissions current per floor area
+- We have transformed the unique floor description values to Floor Type and Floor Insulation features (more details you can find in the script).
+- We have created CO2 rating based on the relevant CO2 values (inverse dependency and values from 1 to 5) 
+#### Features popularity
+![Screenshot](pictures/floor1.PNG)
+#### Features average ratings
+![Screenshot](pictures/floor2.PNG)
+#### Features heatmaps (Floor Type on Floor Insulation)
+![Screenshot](pictures/floor3.PNG)
+
+### 2.12. (BONUS) Rank the top 5 windows descriptions by CO2 emissions current per floor area and windows energy efficiency (create a single rating combining CO2 emissions and windows energy efficiency)
+- We have preprocessed the field WINDOWS_DESCRIPTION (more details you can find in the script).
+- We have created CO2 rating based on the relevant CO2 values (inverse dependency and values from 1 to 5) 
+- Windows rating have been created from the WINDOWS_ENERGY_EFF field with replacing of the word rankings to the values: 
+        very poor: 1,
+        poor: 2,
+        average: 3,
+        good: 4,
+        very good: 5
+- Total rating is the simple average between windows and CO2 ratings.
+#### Feature popularity
+![Screenshot](pictures/windows1.PNG)
+#### Feature average ratings
+![Screenshot](pictures/windows2.PNG)
+
+### 2.13. (BONUS) Rank the top 5 mainheat descriptions by CO2 emissions current per floor area and mainheat energy efficiency (create a single rating combining CO2 emissions and mainheat energy efficiency)
+- We have preprocessed the field MAINHEAT_DESCRIPTION (more details you can find in the script).
+- We have created CO2 rating based on the relevant CO2 values (inverse dependency and values from 1 to 5) 
+- Mainheat rating have been created from the MAINHEAT_ENERGY_EFF field with replacing of the word rankings to the values: 
+        very poor: 1,
+        poor: 2,
+        average: 3,
+        good: 4,
+        very good: 5
+- Total rating is the simple average between mainheat and CO2 ratings.
+#### Feature popularity
+![Screenshot](pictures/mainheat1.PNG)
+#### Feature average ratings
+![Screenshot](pictures/mainheat2.PNG)
+
+### 2.14. (BONUS) Rank the top 5 mainheatcont descriptions by CO2 emissions current per floor area and mainheatcont energy efficiency (create a single rating combining CO2 emissions and mainheatcont energy efficiency)
+- We have preprocessed the field MAINHEATCONT_DESCRIPTION (more details you can find in the script).
+- We have created CO2 rating based on the relevant CO2 values (inverse dependency and values from 1 to 5) 
+- Mainheatcont rating have been created from the MAINHEATCONT_ENERGY_EFF field with replacing of the word rankings to the values: 
+        very poor: 1,
+        poor: 2,
+        average: 3,
+        good: 4,
+        very good: 5
+- Total rating is the simple average between mainheatcont and CO2 ratings.
+#### Feature popularity
+![Screenshot](pictures/mainheatcont1.PNG)
+#### Feature average ratings
+![Screenshot](pictures/mainheatcont2.PNG)
 
 ---
 ## 3. Algorithms
@@ -163,10 +218,10 @@ _More details you can find in the script Modelling_cost.ipynb_
 ![Screenshot](pictures/models.PNG)
 #### Feature importances of Xgboost model:
 ![Screenshot](pictures/imp_xgb.PNG)
-#### Feature importances of Random Forest model:
-![Screenshot](pictures/imp_rf.PNG)
 #### Feature importances of LightGBM model:
 ![Screenshot](pictures/imp_lgb.PNG)
+#### Feature importances of Random Forest model:
+![Screenshot](pictures/imp_rf.PNG)
 
 ### 3.6. Build an algorithm that takes as input the characteristics of a building (any field in the dataset) and outputs recommendations on which elements of the house should be modified to most effectively decrease the total energy cost of the building over a 3-year period
 - Preprocess input features and choose not duplicated and potentially usefull for recommendation model.

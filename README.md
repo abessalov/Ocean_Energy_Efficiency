@@ -18,6 +18,11 @@
 - 3_Get_ratings_geo.ipynb - calculation of the geographical rankings (points 1-8 from the Rankings below).
 - 4_Analyzing_wall.ipynb - analyzing wall description and creating rankings and correlations (point 9 from the Rankings and 1 from the Algorithms below).
 - 4_Analyzing_roof.ipynb - analyzing roof description and creating rankings and correlations (point 10 from the Rankings and 2 from the Algorithms below).
+- 4_Analyzing_floor.ipynb - analyzing floor description and creating rankings (bonus point 11 from the Rankings).
+- 4_Analyzing_windows.ipynb - analyzing windows description and creating rankings (bonus point 12 from the Rankings).
+- 4_Analyzing_mainheat.ipynb - analyzing mainheat description and creating rankings (bonus point 13 from the Rankings).
+- 4_Analyzing_mainheatcont.ipynb - analyzing mainheatcont description and creating rankings (bonus point 14 from the Rankings).
+- 4_Analyzing_age.ipynb - analyzing construction age and creating correlations (point 3 from the Algorithms below).
 - 5_Modelling_cost.ipynb - build an algorithm that takes as input the characteristics of a building (any field of the dataset except those related to costs) and outputs the total cost of energy of the building over a 3-year period.
 - 6_Recommendations.ipynb - build an algorithm that takes as input the characteristics of a building (any field of the dataset) and outputs recommendations on the elements of the house to be modified to improve its energy performance or total energy cost (points 4 and 6 from Algorithms).
 
