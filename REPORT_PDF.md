@@ -104,6 +104,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 ![Screenshot](pictures/wall1.PNG)
 #### Features average ratings
 ![Screenshot](pictures/wall2.PNG)
+<br><br><br><br><br>
 #### Features heatmaps (Wall Type on Wall Insulation)
 ![Screenshot](pictures/wall3.PNG)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
