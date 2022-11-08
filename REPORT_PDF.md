@@ -79,7 +79,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least regions by potential savings in heating costs are in the center part of Scotland.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab7.PNG)
-<br><br><br><br><br><br>
+<br><br><br><br><br>
 
 ### 2.8. Rank Towns by potential savings in hot water costs (£) over three years
 #### Countries rankings barplot and the map
