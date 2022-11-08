@@ -106,6 +106,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 ![Screenshot](pictures/wall2.PNG)
 #### Features heatmaps (Wall Type on Wall Insulation)
 ![Screenshot](pictures/wall3.PNG)
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### 2.10. Rank the top 5 roof descriptions (roof materials) by CO2 emissions current per floor area and roof energy efficiency (create a single rating combining CO2 emissions and roof energy efficiency)
 - We have transformed the unique roof description values to Roof Type and Roof Insulation features (more details you can find in the script).
