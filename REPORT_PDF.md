@@ -10,7 +10,6 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - Textual features describing the dwelling we unroll, remove from the initial dataset and analyze separately.
 - Parse postcodes, towns, countries from https://www.townscountiespostcodes.co.uk and merge it with input data.
 
----
 ## 2. Rankings and correlations
 
 ### Number or dwellings by countries (rank number on the map)
