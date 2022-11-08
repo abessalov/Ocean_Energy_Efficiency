@@ -88,7 +88,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least regions by potential savings in hot water costs are in the center part of Scotland. 
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab8.PNG)
-<br><br><br><br><br><br>
+<br><br><br><br><br>
 
 ### 2.9. Rank the top 5 wall descriptions (wall materials) by CO2 emissions current per floor area and wall energy efficiency (create a single rating combining CO2 emissions and wall energy efficiency)
 - We have transformed the unique wall description values to Wall Type and Wall Insulation features (more details you can find in the script).
