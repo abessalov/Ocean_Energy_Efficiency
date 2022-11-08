@@ -34,7 +34,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least potentially effective regions are in the center part because they are already currently the most effective.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab2.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.3. Rank Towns by current environmental impact rating
 #### Countries rankings barplot and the map
