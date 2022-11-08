@@ -122,10 +122,10 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 ![Screenshot](pictures/roof1.PNG)
 #### Features average ratings
 ![Screenshot](pictures/roof2.PNG)
-<br>
+<br><br><br>
 #### Features heatmaps (Roof Type on Roof Insulation)
 ![Screenshot](pictures/roof3.PNG)
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### 2.11. (BONUS) Rank the top 5 floor descriptions (floor materials) by CO2 emissions current per floor area
 - We have transformed the unique floor description values to Floor Type and Floor Insulation features (more details you can find in the script).
