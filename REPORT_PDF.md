@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 # Report of Ocean Protocol :: Energy Efficiency Data Challenge
 
 ## 1. Data cleaning and preprocessing
