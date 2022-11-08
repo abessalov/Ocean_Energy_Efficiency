@@ -43,7 +43,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least currently environmental impact regions are in the north part especially in Shetland isles.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab3.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.4. Rank Towns by potential environmental impact rating
 #### Countries rankings barplot and the map
@@ -52,7 +52,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least potentially environmental impact regions are Shetland isles and Argyll and Bute.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab4.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.5. Rank Towns by Current Emissions (T.CO2/yr)
 #### Countries rankings barplot and the map
@@ -61,7 +61,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least currently polluting in CO2 measurements regions are in the north part.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab5.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.6. Rank Towns by Potential Reduction in Emissions (T.CO2/yr)
 #### Countries rankings barplot and the map
@@ -70,7 +70,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least potentially polluting in CO2 measurements regions are in the north part.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab6.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.7. Rank Towns by potential savings in heating costs (£) over three years
 #### Countries rankings barplot and the map
@@ -79,7 +79,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least regions by potential savings in heating costs are in the center part of Scotland.
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab7.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.8. Rank Towns by potential savings in hot water costs (£) over three years
 #### Countries rankings barplot and the map
@@ -88,7 +88,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - The least regions by potential savings in hot water costs are in the center part of Scotland. 
 #### TOP-10 Town rankings table (len is the number of dwellings in that town and mean is the average value)
 ![Screenshot](pictures/tab8.PNG)
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ### 2.9. Rank the top 5 wall descriptions (wall materials) by CO2 emissions current per floor area and wall energy efficiency (create a single rating combining CO2 emissions and wall energy efficiency)
 - We have transformed the unique wall description values to Wall Type and Wall Insulation features (more details you can find in the script).
