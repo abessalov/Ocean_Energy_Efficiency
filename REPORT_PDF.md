@@ -241,12 +241,12 @@ _More details you can find in the script Modelling_cost.ipynb_
 #### As we can see in the table below all models give us sufficiently good resuls:
 ![Screenshot](pictures/models.PNG)
 #### Feature importances of Xgboost model:
-<img src="pictures/imp_xgb.PNG" alt="drawing" width="70%"></img>
+<img src="pictures/imp_xgb.PNG" alt="drawing" width="65%"></img>
 <br><br><br><br><br>
 #### Feature importances of LightGBM model:
-<img src="pictures/imp_lgb.PNG" alt="drawing" width="70%"></img>
+<img src="pictures/imp_lgb.PNG" alt="drawing" width="65%"></img>
 #### Feature importances of Random Forest model:
-<img src="pictures/imp_rf.PNG" alt="drawing" width="70%"></img>
+<img src="pictures/imp_rf.PNG" alt="drawing" width="65%"></img>
 
 ### 3.6. Build an algorithm that takes as input the characteristics of a building (any field in the dataset) and outputs recommendations on which elements of the house should be modified to most effectively decrease the total energy cost of the building over a 3-year period
 _More details you can find in the script 6_Recommendations.ipynb_
