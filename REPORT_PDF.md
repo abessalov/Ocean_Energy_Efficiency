@@ -149,9 +149,9 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
         very good: 5
 - Total rating is the simple average between windows and CO2 ratings.
 #### Feature popularity
-<img src="pictures/windows1.PNG" alt="drawing" width="35%"/>
+<img src="pictures/windows1.PNG" alt="drawing" width="60%"></img>
 #### Feature average ratings
-<img src="pictures/windows2.PNG" alt="drawing" width="35%"/>
+<img src="pictures/windows2.PNG" alt="drawing" width="60%"></img>
 
 ### 2.13. (BONUS) Rank the top 5 mainheat descriptions by CO2 emissions current per floor area and mainheat energy efficiency (create a single rating combining CO2 emissions and mainheat energy efficiency)
 - We have preprocessed the field MAINHEAT_DESCRIPTION (more details you can find in the script).
