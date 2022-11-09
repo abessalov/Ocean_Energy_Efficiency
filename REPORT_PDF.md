@@ -164,9 +164,9 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
         very good: 5
 - Total rating is the simple average between mainheat and CO2 ratings.
 #### Feature popularity
-![Screenshot](pictures/mainheat1.PNG)
+<img src="pictures/mainheat1.PNG" alt="drawing" width="70%"></img>
 #### Feature average ratings
-![Screenshot](pictures/mainheat2.PNG)
+<img src="pictures/mainheat2.PNG" alt="drawing" width="70%"></img>
 
 ### 2.14. (BONUS) Rank the top 5 mainheatcont descriptions by CO2 emissions current per floor area and mainheatcont energy efficiency (create a single rating combining CO2 emissions and mainheatcont energy efficiency)
 - We have preprocessed the field MAINHEATCONT_DESCRIPTION (more details you can find in the script).
