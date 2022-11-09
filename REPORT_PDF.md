@@ -179,9 +179,9 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
         very good: 5
 - Total rating is the simple average between mainheatcont and CO2 ratings.
 #### Feature popularity
-<img src="pictures/mainheatcont1.PNG" alt="drawing" width="70%"></img>
+<img src="pictures/mainheatcont1.PNG" alt="drawing" width="80%"></img>
 #### Feature average ratings
-<img src="pictures/mainheatcont2.PNG" alt="drawing" width="70%"></img>
+<img src="pictures/mainheatcont2.PNG" alt="drawing" width="80%"></img>
 
 ---
 ## 3. Algorithms
@@ -192,7 +192,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - Plot box-plot to have ability to vizual compare distributions of CO2 values in each group. On the picture below we can see that there is a strong differences between distributions of that feature in the groups.
 - Conduct ANOVA statistical test to have numerical value of similarity between these variables. We calculated F_statistics = 1244.40 and pvalue = 0 and can conclude that there is high dependance between these features.
 #### Boxplots of CO2 values by the groups:
-![Screenshot](pictures/wall4.PNG)
+<img src="pictures/wall4.PNG" alt="drawing" width="80%"></img>
 
 ### 3.2. Build an algorithm to find correlations between CO2 emissions current per floor area vs roof description and roof energy efficiency
 - Create a splittings by the unique combinations of cleaned features values. Roof description and roof energy efficiency in our case have transformed into 3 features: ROOF_TYPE, ROOF_INS, Roof_rating. Collect CO2 emissions current per floor area values in each group.
@@ -200,7 +200,7 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
 - Plot box-plot to have ability to vizual compare distributions of CO2 values in each group. On the picture below we can see that there is a strong differences between distributions of that feature in the groups.
 - Conduct ANOVA statistical test to have numerical value of similarity between these variables. We calculated F_statistics = 1153.09 and pvalue = 0 and can conclude that there is high dependance between these features.
 #### Boxplots of CO2 values by the groups:
-![Screenshot](pictures/roof4.PNG)
+<img src="pictures/roof4.PNG" alt="drawing" width="80%"></img>
 
 ### 3.3. Build an algorithm to find correlations between construction age band vs current energy efficiency and current emissions (T.CO2/yr)
 - Convert age band to it's maximum value in the range to have the numerical feature
