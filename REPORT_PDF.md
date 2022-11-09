@@ -242,7 +242,7 @@ _More details you can find in the script Modelling_cost.ipynb_
 ![Screenshot](pictures/models.PNG)
 #### Feature importances of Xgboost model:
 <img src="pictures/imp_xgb.PNG" alt="drawing" width="65%"></img>
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 #### Feature importances of LightGBM model:
 <img src="pictures/imp_lgb.PNG" alt="drawing" width="65%"></img>
 #### Feature importances of Random Forest model:
