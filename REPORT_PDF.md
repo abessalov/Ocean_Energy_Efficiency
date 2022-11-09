@@ -179,9 +179,9 @@ _More details you can find in the scripts 0_Data_preprocessing.ipynb and 1_Geoda
         very good: 5
 - Total rating is the simple average between mainheatcont and CO2 ratings.
 #### Feature popularity
-![Screenshot](pictures/mainheatcont1.PNG)
+<img src="pictures/mainheatcont1.PNG" alt="drawing" width="70%"></img>
 #### Feature average ratings
-![Screenshot](pictures/mainheatcont2.PNG)
+<img src="pictures/mainheatcont2.PNG" alt="drawing" width="70%"></img>
 
 ---
 ## 3. Algorithms
