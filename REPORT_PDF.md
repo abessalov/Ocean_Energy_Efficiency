@@ -230,7 +230,7 @@ _More details you can find in the script 6_Recommendations.ipynb_
 ![Screenshot](pictures/reco1.PNG)
 #### After we got recommendation for each dwelling we have the following statistics:
 ![Screenshot](pictures/reco1_res.PNG)
-
+<br><br><br><br><br><br>
 
 ### 3.5. Build an algorithm that takes as input the characteristics of a building (any field of the dataset except those related to costs) and outputs the total cost of energy of the building over a 3-year period
 _More details you can find in the script Modelling_cost.ipynb_
